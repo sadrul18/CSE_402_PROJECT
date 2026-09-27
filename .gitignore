@@ -1,0 +1,48 @@
+# Python, packaging and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+.eggs/
+
+# Tests, analysis and coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit*.xml
+
+# Local configuration, credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.codex/
+.agents/
+
+# Generated results stay local; commit curated report figures deliberately
+outputs/*
+!outputs/.gitkeep
+*.log
+.ipynb_checkpoints/
+data/private/
+
+# Keep source datasets, documentation, notebooks and configs trackable.
