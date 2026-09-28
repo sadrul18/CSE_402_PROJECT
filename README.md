@@ -29,7 +29,7 @@ method is robust or that all five parameters have been accurately recovered.
 | `current.py` | Member 2 | Newton, bisection, hybrid solver and current calculation |
 | `fit.py` | Member 3 | Gauss–Newton and Levenberg–Marquardt parameter fitting |
 | `numerics.py` | Member 4 | Residuals, finite-difference Jacobian, pivoted linear solve |
-| `experiments.py` | Member 5 | RMSE, seeded noise studies, summaries and plots |
+| `experiments.py` | Safayat Saif | RMSE, seeded noise studies, summaries and plots |
 | `run.py` | Member 1 | Connect the components and provide the entry point |
 | `test_project.py` | Everyone | Maintain tests for each component and the full pipeline |
 
